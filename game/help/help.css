@@ -1,0 +1,154 @@
+ .NavMenu {
+     border-radius: 26px;
+ }
+ 
+ .NavMenu {
+     list-style: none;
+     padding: 0px;
+     margin: 0px;
+     text-align: center;
+     padding-bottom: 27px;
+     position: absolute;
+     left: 10%;
+     top: 27px;
+     z-index: 99999999999999999;
+ }
+ 
+ .head {
+     box-shadow: 0px 0px 15px #ff9800d6;
+     display: inline-block;
+     margin: 20px;
+     width: 241px;
+     border-radius: 37px;
+     text-align: center;
+     padding: 4px 0;
+     background: rgba(255, 193, 7, 0.83);
+ }
+ 
+ .head:hover {
+     background: rgba(255, 255, 255, 0.83);
+     box-shadow: 0px 0px 15px #2196f3;
+ }
+ 
+ .head a {
+     font-family: -webkit-pictograph;
+     font-size: 40px;
+ }
+ 
+ .head a:hover {
+     color: #2196f3;
+ }
+ 
+ a {
+     text-decoration: none;
+     color: white
+ }
+ 
+ .active {
+     color: #2196F3;
+ }
+ 
+ body {
+     color: #585858;
+     font-family: Arial;
+     font-size: 14px;
+     margin: 0;
+     min-width: 960px;
+ }
+ 
+ #page {
+     background: url(../images/WhatsApp\ Image\ 2019-04-08\ at\ 02.11.04.jpeg) no-repeat;
+     background-size: cover;
+     width: 100%;
+ }
+ 
+ #content {
+     margin: 0 auto;
+     min-height: 174px;
+     overflow: hidden;
+     position: relative;
+     top: 220px;
+     width: 960px;
+ }
+ 
+ #content p a {
+     color: #000;
+     text-decoration: underline;
+ }
+ 
+ #content div {
+     background: #fff;
+     margin: 10px auto 20px;
+     padding: 30px;
+     width: 880px;
+ }
+ 
+ #content div div {
+     margin: 0;
+     padding: 0 37px 30px;
+     width: auto;
+ }
+ 
+ #content div h3 {
+     color: #c80708;
+     font-size: 28px;
+     font-weight: bold;
+     margin: 0;
+     padding-bottom: 0px;
+ }
+ 
+ #content div #img {
+     margin-top: 7px;
+     margin-right: 49px;
+     height: 100px;
+     width: 800px;
+ }
+ 
+ #content div p {
+     line-height: 25px;
+     margin: 0;
+     padding-bottom: 0;
+     padding-top: 2px;
+     text-align: justify;
+     font-weight: 600;
+ }
+ 
+ .ul1 {
+     list-style-type: none;
+ }
+ 
+ li {
+     display: list-item;
+     text-align: -webkit-match-parent;
+     font-size: 14px
+ }
+ 
+ span {
+     line-height: 25px;
+     margin: 0;
+     padding-bottom: 0;
+     padding-top: 2px;
+     text-align: justify;
+     font-weight: 600;
+ }
+ 
+ #footer {
+     background: #274F75;
+     min-height: 80px;
+     width: 100%;
+     margin: 0 auto;
+ }
+ 
+ #footer div {
+     font-size: 12px;
+     margin: 0 auto;
+     padding-top: 37px;
+     position: relative;
+     width: 960px;
+ }
+ 
+ .section p {
+     font-size: 13px;
+     color: aliceblue;
+     text-align: center
+ }

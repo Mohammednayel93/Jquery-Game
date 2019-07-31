@@ -1,0 +1,82 @@
+body {
+    background-image: url("../images/home8.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 27px;
+    position: fixed;
+    left: 10%;
+    top: 27px;
+    z-index: 99999999999999999;
+}
+
+li {
+    box-shadow: 0px 0px 15px white;
+    display: inline-block;
+    margin: 20px;
+    width: 241px;
+    border-radius: 37px;
+    border: 3px solid;
+    text-align: center;
+    padding: 4px 0;
+}
+
+li:hover {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+li a {
+    font-family: -webkit-pictograph;
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+.NavMenu {
+    border-radius: 26px;
+}
+
+.NavMenu {
+    border-radius: 26px;
+}
+
+#btnStart {
+    /* background-image: url(../images/start.png); */
+    width: 262px;
+    height: 111px;
+    position: relative;
+    left: 553px;
+    top: 200px;
+    background-color: #fff8dc00;
+    border: none;
+    font-size: 117px;
+    color: rgb(20, 9, 46);
+    font-family: cursive;
+    font-weight: bold;
+    text-shadow: 1px 1px 15px #ff0099;
+    text-align: center;
+    opacity: .4;
+}
+
+#btnStart:hover {
+    opacity: 1;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    height: 73px;
+    bottom: 0px;
+    left: 35%;
+    z-index: 99999999999999999;
+    color: rgb(10, 11, 12);
+}

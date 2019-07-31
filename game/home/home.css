@@ -1,0 +1,158 @@
+/* Global */
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: #f7f7f7;
+}
+
+.container {
+    padding: 0px 150px;
+}
+
+#menuDownIcon {
+    cursor: pointer;
+}
+
+#menuUpIcon {
+    cursor: pointer;
+    display: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 27px;
+    position: fixed;
+    left: 10%;
+    top: 27px;
+    z-index: 99999999999999999;
+}
+
+li {
+    box-shadow: 0px 0px 15px #ff9800d6;
+    display: inline-block;
+    margin: 20px;
+    width: 241px;
+    border-radius: 37px;
+    text-align: center;
+    padding: 4px 0;
+    background: rgba(255, 193, 7, 0.83);
+}
+
+li:hover {
+    background: rgba(255, 255, 255, 0.83);
+    box-shadow: 0px 0px 15px #2196f3;
+}
+
+li a {
+    font-family: -webkit-pictograph;
+    font-size: 40px;
+}
+
+li a:hover {
+    color: #2196f3;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+.NavMenu {
+    border-radius: 26px;
+}
+
+.mySlides {
+    display: none
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    height: 73px;
+    bottom: 0px;
+    left: 35%;
+    z-index: 99999999999999999;
+    color: rgb(10, 11, 12);
+}
+
+img {
+    position: fixed;
+    left: 0px;
+}
+
+.cover {
+    width: 100%;
+    min-height: 700px;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.77);
+    /* background:linear-gradient(215deg,rgba(84, 4, 4, 0.55) 47%, #000000) 59%;*/
+    box-shadow: 0px 0px 30px black;
+    z-index: 999999;
+    left: 0px;
+}
+
+.active {
+    color: #2196F3;
+}
+
+.caption {
+    position: fixed;
+    left: 10%;
+    top: 62px;
+    z-index: 99999999999999999;
+    font-size: 69px;
+    font-family: -webkit-pictograph;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 2px 3px 10px;
+    text-align: center;
+}
+
+span {
+    color: #feca30;
+}
+
+#cap1 {
+    top: 110px;
+    left: 20px;
+}
+
+#cap2 {
+    top: 84px;
+    right: 431px;
+    color: #2196f3;
+    font-size: 41px
+}
+
+#cap3 {
+    top: 70px;
+    left: 12px;
+    font-size: 70px;
+}
+
+#cap5 {
+    cursor: pointer;
+    box-shadow: 0px 0px 15px #ff9800d6;
+    display: inline-block;
+    margin: 20px;
+    width: 241px;
+    border-radius: 37px;
+    /* border: 3px solid; */
+    text-align: center;
+    padding: 4px 0;
+    background: rgba(255, 193, 7, 0.83);
+    /* color: #00c8d5; */
+    top: 131px;
+    left: 11px;
+}
+
+.x {
+    left: 40%;
+    top: 42%
+}
